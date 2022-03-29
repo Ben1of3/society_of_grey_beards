@@ -1,0 +1,221 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-width: 350px;
+    text-align: center;
+    background-color: black;
+    opacity: 80%;
+    z-index: 99;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+marquee{
+    style: scrollamount="100" direction="left"
+    position: center;
+    top: auto;
+    font-family: courier;
+    font-size: 18pt;
+    text-align: center;
+    color: green;
+    animation: blinkingText 3.5s infinite;
+}
+@keyframes blinkingText{
+    0%{ color:whitesmoke}
+    19%{color: transparent}
+    20%{ color: lightgreen}
+    39%{ color: transparent}
+    40%{ color: green}
+    59%{ color: transparent}
+    60%{ color: darkgreen}
+    79%{ color: transparent}
+    80%{ color: darkgrey}
+    100%{ color: transparent}
+}
+
+.head{
+    color: lightgray;
+    min-width: 580px;
+    max-width: 1024px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 100px;
+    top: 0;
+    right: 0;
+    text-align: justify;
+    text-shadow: 2px 2px 10px black;
+    font-size: 16px;
+    background-color: black;
+    opacity: 80%;
+}
+
+img{
+    width: auto;
+    height: auto;
+    min-width: 250px;
+    max-width: 2560px;
+    margin: 15px;
+    position: center;
+}
+
+.column {
+    margin: auto;  
+    column-gap: 10px;
+    padding: 10px;
+}
+.column1 {
+    float: left;
+    width: 47%;
+}
+.column2 {
+    float: right;
+    width: 47%;
+}
+
+.row {
+    width: auto 100%;
+    padding: 10px;
+    background-color: black;
+    opacity: 75%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    color: black;
+    opacity: 65%;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0px 1px 4px white;
+    text-align: center;
+    margin: auto;
+    background-color: darkslategrey;
+    border-block-start-style: outset;
+    border-block-end-style: inset;    
+
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-emphasis: bold;
+    text-align: center;
+    text-shadow: 0px 0px 16px black;
+    width: auto;
+    border-block-start-style: outset;
+    border-block-end-style: inset;  
+        
+}
+
+h3{
+    font-size: 25px;
+    font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 91, 31);
+    text-emphasis: bold;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    background-color: black;
+    opacity: 80%;
+
+}
+
+h4{
+    font-size: 20px;
+    font-family: Verdana;
+    color: black;
+    text-align: center;
+    text-shadow: 0px 0px 10px red;
+    width: auto;
+    height: 16px;
+    background-position: center;
+    margin: 15px;
+
+}
+
+h5{
+    color: black;
+    font-size: 1px;
+    font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orangered;
+    height: 1px;
+    margin-bottom: 5px:
+}
+
+body{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: black;
+    position: center;
+    top: 0%;
+    left: 0%;
+    margin: auto;
+    min-width: 250px;
+    max-width: 2560px;
+    float: center;
+    background-image: url("imgs/edbg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.container{
+    max-width: 2560px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    grid-auto-columns: 1;
+    column-gap: 25px;
+    position: center;
+}
+
+.rules{
+    position: center;
+    text-align: center;
+    background-color: black;
+    opacity: 75%;
+}
+
+.widget{
+    width: auto;
+    position: center;
+    float: center;
+    background-color: black;
+    opacity:75%
+}
+
+.footer{
+    position: fixed, absolute;
+    width: 100%;
+    min-width: 350px;
+    bottom: 0;
+    text-align: center;
+    background-image: url("images/navbarBG.png");
+}
+
+.link{
+    color: orange;
+    font-size 20px;
+    padding: 10px;
+    text-shadow: 0px 0px 10px black;
+}
+.link:hover{
+    color: red;
+    text-decoration: underline overline red;
+    text-shadow: 0px 0px 20px orange;
+}
+.link:active{
+    color: black;
+    background-color: grey;
+    transition-delay: 15ms;
+}
